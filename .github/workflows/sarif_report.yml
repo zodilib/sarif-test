@@ -2,7 +2,7 @@ name: Run tfsec sarif report
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 jobs:
   tfsec:
